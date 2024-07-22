@@ -1,5 +1,7 @@
-def call{
-    node{
+// vars/auditTools.groovy
+
+def call() {
+    node {
         sh '''
         git version
         java -version
